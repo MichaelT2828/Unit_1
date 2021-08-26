@@ -7,3 +7,14 @@ Test file with special formating. These are noted by .md
 **Fig 1.** First try at drawing computer parts
 
 In **Fig 1.** This was my first attempt at drawing the insides of a computer. I know some basic components, but I don't know how they interact (where they go in the computer).
+
+
+
+List of commands in mark down
+
+| command | action |
+|-------|----------|
+
+#x
+##Title
+###Subtitle
