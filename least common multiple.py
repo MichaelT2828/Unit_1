@@ -9,10 +9,10 @@ def lcm(a, b, c):
         biggest = c
 
     while(True):
-        if (biggest % a == 0) and (biggest % b == 0) and (biggest % c == 0): #if biggest is divisible by all three of them
+        if (biggest % a == 0) and (biggest % b == 0) and (biggest % c == 0):
             lcm = biggest
-            break #stop the while loop
-        biggest += 1 #add 1 to biggest, and check if divisible again
+            break
+        biggest += 1
     return biggest
 
 print(lcm(18, 4, 7))
