@@ -3,16 +3,16 @@ def email_split(email):
     mail = ''
     digit = 0
     list = []
-    for i in email: #goes through each character of email
+    for i in email:
         digit += 1
-        if i in '@': #checks each character if its "@", if it is:
-           mail = email[digit:] #mail becomes the everything after the "@", using index of digit
-           name = email[0:digit-1] #name becomes everything before "@"
-        fullname = name.replace('.', ' ') #replace the . in between the name with a space
-        fullname1 = fullname.title() #replace the first letter in each word with capital
+        if i in '@':
+           mail = email[digit:]
+           name = email[0:digit-1]
+        fullname = name.replace('.', ' ')
+        fullname1 = fullname.title()
     list.append(fullname1)
-    list.append(mail) #add fullname and mail into a list, so you can return them both at once
+    list.append(mail)
     return list
 
-print(email_split('john.doe@gmail.com')) #need to print John Doe and gmail.com
+print(email_split('john.doe@gmail.com'))
 
