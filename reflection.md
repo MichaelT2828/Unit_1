@@ -26,4 +26,8 @@ I was able to apply the things we learned in class (functions, for while if loop
 
 I struggled to keep up with the planning phase of the game, and had to end up doing a lot of the planning after I finished the code portion. 
 
-### 7. 
+### 7. As a developer, are you responsible only for fufilling the success criteria. Defend answer.
+
+I think it somewhat depends on the payement, they will receive what they pay for. However, sometimes the success criteria is more of an outline of the final solution, rather than every single requirement of the solution, so I think the solution still needs to be intact (it should not be a barbones only do the success criteria and nothing else). 
+
+As for future responsibility, I think there should be a written agreement with the client beforehand, stating whether or not the developer should be responsible for other uses of their code, bugs or crashes preventing the code from functioning, or anything else that requires someone responsible to fix it. At the very least, if there is no agreement, no clear responsibility, the code should be well structured, well documented and follows good coding practices, so the risk of breaking down or not being able to find someone that can fix it is low. 
